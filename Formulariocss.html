@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+    <style>
+        
+        body {
+            background: url(imgSena/Calii.jpg.jpeg);
+            background-size: cover;
+            padding: 100px;
+            
+        }
+
+        h2 {
+            font-family: montserrat;
+            font-size: 40px;
+            font-weight: 800;
+        }
+
+        .seccion2 h2 {
+            color: white;
+        }
+
+        .seccion2 p {
+            font-family: sans-serif;
+            padding: 0px 60px 30px 60px;
+            color: white;
+        }
+
+        p {
+            font-family: sans-serif;
+            color: rgb(107, 107, 107);
+        }
+
+        .contenedor{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .logos a img{
+            width: 80px;
+            height: 60px;
+            text-decoration: none;
+            padding: 0 0px 0 10px;
+        }
+
+        section{ 
+            box-shadow: 0px 15px 30px 5px rgba(0, 0, 0, 0.4);
+            border-radius: 10px;
+        }
+
+        .seccion{
+            background-color: rgba(243, 243, 243, 0.775);
+            width: 500px;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 20px ;
+            border-radius: 10px 0px 0px 10px;
+           
+        }
+
+        .formulario_input {
+            width: 300px;
+            height: 40px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgb(235, 235, 235);
+            padding: 5px 0 5px 15px;
+        }
+
+        #iniciar{
+            font-family: montserrat;
+            font-weight: 400;
+            font-size: 15px;
+            padding: 15px 40px 15px 40px;
+            border-radius: 40px;
+            color: white;
+            border: none;
+            background: linear-gradient(to right, rgb(4, 102, 4), rgb(13, 66, 10));
+        }
+
+        #clase {
+            background-color: green;
+            font-family: montserrat;
+            font-weight: 500;
+            font-size: 15px;
+            padding: 15px 40px 15px 40px;
+            border-radius: 40px;
+            color: green;
+            border-color: rgba(25, 145, 43, 0.286);
+            border-width: 1px;
+            background: linear-gradient(to right, rgb(176, 176, 176), rgba(237, 254, 236, 0.827));
+            
+        }
+
+        .seccion2{    
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .seccion2 {
+            background: linear-gradient(to right, rgba(0, 128, 0, 0.634), rgb(13, 85, 7)); 
+            width: 500px;
+            height: 600px;
+            border-radius: 0px 10px 10px 0px;
+
+        }
+
+        .iniciar_seccion p {
+            padding: 20px 0 5px 0;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <section>
+            <div class="seccion">
+                <h2>Inicie seccion</h2>
+                <div class="logos">
+                    <a href="https://www.youtube.com/watch?v=ZyUYbffiXfk&t=2205s"><img src="imgSena/youtube.png" alt=""></a>
+                        
+                    
+                    <a href="https://www.facebook.com/DeportivoCaliOficial/"><img src="imgSena/facebook.png.png" alt="" id="facebook"></a>
+                   
+                        
+                    <a href="https://www.instagram.com/DeportivoCaliOficial/"><img src="imgSena/Instagram.png.png" alt=""> </a>
+                        
+                   
+                </div>
+                <p>O inicie seccion con su cuenta</p>
+                
+                <div class="formulario">
+                    <form action="#">
+                        <input class="formulario_input" type="text" placeholder="Usuario" required>
+                        <br>
+                        <br>
+                        <input class="formulario_input" type="password" placeholder="Contraseña" required>
+                    </form>
+                </div>
+
+                <div class="iniciar_seccion">
+                    <p>Olvide mi contraseña</p>
+                    <input type="submit" value="INICIAR SECCION" id="iniciar">
+                </div>
+            </div>
+        </section>
+        <section>
+            
+            <div class="seccion2">
+                <img src="imgSena/gloriosoCDC.png" alt="" width="120" height="160">
+                <h2>¡Hola camarada!</h2>
+                <p>Registra tus datos para empezar tus estudios sobre el mejor equipo del mundo</p>
+                <div class="registro">
+                    <input type="submit" value="REGISTRARSE" id="clase">
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
